@@ -1,0 +1,158 @@
+
+    .child-container{
+        height:auto;
+    }
+
+    #title_view{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-gap: 10px;
+        width:100%;
+        margin: auto;
+        color:white;
+        align-items: center;
+        height:auto;
+    }
+
+    #logo {
+        grid-column: 1 / span 10;
+        width:100%;
+        height: 65vh;
+        padding:15px;
+    }
+
+    #inlogo{
+        transform: scale(3)
+    }
+
+    #this_is_if{
+        grid-column: 1 / span 9;
+        width:100%;
+        text-align: center;
+        height: auto;
+        font-size: 20px;
+    }
+
+    #give_me_email{
+        grid-column: 2 / span 8;
+        width:100%;
+        text-align: center;
+        height: auto;
+
+    }
+
+    #button_daba_na{
+        grid-column: 1 / span 10;
+        width:100%;
+        text-align: center;
+        height: auto;
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    #sponsor_us{
+        grid-column: 1 / span 10;
+        width:100%;
+        text-align: center;
+        height: auto;
+        font-size: 20px;
+        margin-bottom: 70px;
+        padding: 0px;
+    }
+
+    .centre-container {
+        padding-top: 10px;
+    }
+
+    #about_by_akshay,#video_by_rushang{
+        grid-column: auto / span 12;
+        margin-bottom: 20px
+    }
+
+    .box-header{
+        font-size: 28px;
+        color:aqua;
+        text-align: center;
+    }
+
+    .box-contents{
+        color: aliceblue;
+        font-size:18px;
+        margin-top:20px;
+        text-align: center;
+    }
+
+    #ramanujan{
+        margin-top: 20px;
+    }
+
+    .rect-future{
+        grid-column: auto / span 2;
+    }
+
+    .fa{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .rect-future-inner{
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    .stats-title{
+        font-family: 'Bitter', serif;
+        margin-bottom: 1vw;
+        font-size: 18px;
+    }
+
+   
+    
+    .faq-rect-future{
+        width:80%;
+        height: 567px;
+        background-image: linear-gradient(rgba(0,255,255,0.05),rgba(0, 255, 255, 0.25));
+       
+        text-align: center;
+        position: relative;
+        border-top: 3px solid;
+        border-left: 3px solid;
+        border-right: 3px solid;
+        border-bottom: 3px solid;
+        border-color: aqua;
+    }
+
+
+    .panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+        border: none;
+    }
+    .faq-qans_mob{
+      background-color: black !important;
+    }
+    .q_mob{
+      font-size: 203%;
+    }
+    .ans_mob{
+      font-size: 180%;
+    }
+
+    .ps{
+        font-size: 18px;
+    }
+
+
+    #particles-js{
+        height: 120%;
+    }
+    .faq-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-row-gap: 0px;
+    }
+    #accordion{
+       
+        grid-template-columns: repeat(1, 1fr);
+        
+      }
+}
