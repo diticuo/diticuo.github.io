@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="60" viewBox="0 0 268 60">
+  <g id="team-back" transform="translate(-94 -70)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="264" height="56" transform="translate(96 72)" fill="none" stroke="#fff" stroke-width="4"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="56" height="56" transform="translate(96 72)" fill="none" stroke="#fff" stroke-width="4"/>
+    <text id="TEAM" transform="translate(256 107)" fill="#fff" font-size="24" font-family="Bahnschrift"><tspan x="-30.07" y="0">TEAM</tspan></text>
+    <g id="arrow-left" transform="translate(108 86)">
+      <line id="Line_2" data-name="Line 2" x1="22" transform="translate(5 14)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4" data-name="Path 4" d="M14,23,5,14l9-9" fill="none" stroke="#fff" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
