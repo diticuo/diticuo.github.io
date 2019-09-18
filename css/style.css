@@ -452,7 +452,7 @@ body {
 }
 .team {
   background-size: cover;
-  background-image: url(../img/team-bg.jpg);
+  background-image: url(../img/image-bg.jpg);
   background-position: center;
   background-attachment: fixed;
 }
@@ -466,11 +466,11 @@ body {
 }*/
 @media(max-width: 768px){
   .team {
-    background-image: url(../img/team-mbg.jpg);
+    background-image: url(../img/image-bg.jpg);
   }
 }
 .event_body {
-  background-image: url(../img/events-bg.jpg);
+  background-image: url(../img/image-bg.jpg);
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
