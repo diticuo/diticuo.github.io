@@ -206,14 +206,14 @@ body {
     min-height: 100vh;
   }
   .about {
-    background-image: url("../img/image-bg.jpg");
+    background-color: black;
     background-size: cover!important;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
   }
   .reach {
-    background-image: url("../img/image-bg.jpg");
+    background-color: black;
     background-size: cover!important;
     background-position: center;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ body {
   }
   @media(max-width: 768px){
     .about {
-      background-image: url(../img/image-bg.jpg);
+      background-color: black;
     }
   }
   .reach {
@@ -452,7 +452,7 @@ body {
 }
 .team {
   background-size: cover;
-  background-image: url(../img/image-bg.jpg);
+  background-color: black; 
   background-position: center;
   background-attachment: fixed;
 }
@@ -466,11 +466,11 @@ body {
 }*/
 @media(max-width: 768px){
   .team {
-    background-image: url(../img/image-bg.jpg);
+    background-color: black;
   }
 }
 .event_body {
-  background-image: url(../img/image-bg.jpg);
+  background-color: black;
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
