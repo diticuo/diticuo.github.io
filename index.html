@@ -3,23 +3,7 @@
 <head>
   <title>OPTIMA'19</title>
 
-<!-- loader style -->
 
-<style>
-
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url('img/loader.gif') center no-repeat #fff;
-}
-</style>
-<!-- loader style end -->
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,12 +29,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/animations.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <!-- loader script -->
-     <script>
-      window.addEventListener("load", function(){
-        document.querySelector('.se-pre-con').style.display = 'none';
-      });
-      </script>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
@@ -58,9 +37,7 @@
   <meta name="theme-color" content="#000000" />
   </head>
 <body>
-  <!-- loader div -->
-    <div class="se-pre-con"></div>
-
+  
  <!--  <iframe src="sound/optima_background_audio.mp3" allow="autoplay" style="display:none" id="iframeAudio">
  </iframe> -->
  <audio autoplay="true" loop="true" id="audio">
@@ -195,14 +172,12 @@
                                 <div class="overlay rounded" style="border-style: solid; border-width: 1px;">
                                   <img src="img/workshop_icon.svg" width="100%" class="new">
                                   <div class="middle">
-                                    <a href="#" target="_blank" style="text-decoration: none;">
-                                      <!-- <img src="img/facebook.svg" width="50px"> -->
+                                    <a href="workshop.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                     <img src="img/workshop_icon.svg" width="50px"> 
                                     </a>
                                   </div>
                                 </div> 
-                                <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
-                                <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 20px;">Sharanyo Chatterjee</h5>
-                                <p class="text-center font_light">Contact:8902262712</p>
+                               
                               </div>
         
                               <!-- workshop end -->
@@ -212,14 +187,14 @@
                                 <div class="overlay" style="border-style: solid; border-width: 1px;">
                                   <img src="img/guest_talk.svg" width="100%" class=" new">
                                   <div class="middle">
-                                    <a href="#" target="_blank" style="text-decoration: none;">
+                                    <a href="guesttalk.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                <img src="img/guest_talk.svg" width="50px">
+                                    </a>
                                       
                                     </a>
                                   </div>
                                 </div>
-                                <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
-                                <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 20px;">Ditikrushna Giri </h5>
-                                <p class="text-center font_light">Contact:7978128034</p>
+                       
                               </div>
                               <!--end of Guest Lecture-->
                             </div>
@@ -236,10 +211,10 @@
                           <div class="overlay rounded" style="border-style: solid; border-width: 1px;">
                             <img src="img/hackathon_icon.svg" width="100%" class="new">
                             <div class="middle">
-                              <a style=" text-decoration: none; color: #fff;" data-toggle="modal" data-target="#hack1" class="font_bold" id="login">
+                              <a href="hackthon.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
                                 <img src="img/hackathon_icon.svg" width="50px">
                               </a>
-                              </a>
+                             
                             </div>
                           </div> 
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -254,9 +229,10 @@
                           <div class="overlay" style="border-style: solid; border-width: 1px;">
                             <img src="img/coding_event.svg" width="100%" class=" new">
                             <div class="middle">
-                              <a href="#" target="_blank" style="text-decoration: none;">
-                                
+                              <a href="codingevent.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                <img src="img/coding_event.svg" width="50px">
                               </a>
+                              
                             </div>
                           </div>
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -272,6 +248,9 @@
                           <div class="overlay" style="border-style: solid; border-width: 1px;">
                             <img src="img/web.svg" width="100%" class="new">
                             <div class="middle">
+				     <a href="codingevent.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                <img src="img/web.svg" width="50px">
+                              </a>
                             </div>
                           </div>
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -302,6 +281,9 @@
                           <div class="overlay" style="border-style: solid; border-width: 1px;">
                             <img src="img/quiz.svg" width="100%" class="new">
                             <div class="middle">
+				     <a href="buzzerquiz.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                <img src="img/web.svg" width="50px">
+                              </a>
                             </div>
                           </div>
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -316,6 +298,9 @@
                           <div class="overlay" style="border-style: solid; border-width: 1px;">
                             <img src="img/tech_debate.svg" width="100%" class="new">
                             <div class="middle">
+			        <a href="techdebate.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                <img src="img/tech_debate.svg" width="50px">
+                              </a>
                             </div>
                           </div>
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -331,6 +316,8 @@
                           <div class="overlay" style="border-style: solid; border-width: 1px;">
                             <img src="img/gaming.svg" width="100%" class="new">
                             <div class="middle">
+				 <a href="gaming.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                <img src="img/gaming.svg" width="50px">
                             </div>
                           </div>
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -346,6 +333,8 @@
                           <div class="overlay" style="border-style: solid; border-width: 1px;">
                             <img src="img/treasurehunt.svg" width="100%" class="new">
                             <div class="middle">
+				    <a href="treasurehunt.html" style=" text-decoration: none; color: #fff;"  class="font_bold" >
+                                    <img src="img/treasurehunt.svg" width="50px">
                             </div>
                           </div>
                           <h5 class="font_regular text-center pt-2 mb-0" style="font-size: 15px;">Point of Contact</h5>
@@ -1655,7 +1644,7 @@ Through this years theme , Optima aims to create awareness about India's potenti
 
 
                   <!-- menu SVG -->
-              <img src="img/logomid.svg" style="z-index: 10; position: absolute;" class="logo">
+              <img src="img/logomid1.png" style="z-index: 10; position: absolute;" class="logo">
             </div>
           </div>
           <div class="col-md-3">
