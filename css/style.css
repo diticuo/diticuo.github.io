@@ -562,6 +562,7 @@ input:focus{
 }
 .small_sponsor {
   height: 200px;
+  width:400px;
 }
 @media(max-width: 768px){
   .small_sponsor {
