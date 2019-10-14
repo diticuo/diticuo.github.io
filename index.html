@@ -67,6 +67,116 @@
     width: 100%;
   }
 }
+		
+		 
+/* Image gallery stlyling */
+.container {
+  max-width: 900px;
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+.container__img-holder {
+  max-width: 280px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.container .container__img-holder:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.container__img-holder img {
+  width: 100%;
+  height: 220px;
+  display: block;
+}
+
+
+/* Popup Styling */
+.img-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.img-popup img {
+  max-width: 900px;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+}
+
+.close-btn {
+  width: 35px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-btn .bar {
+  height: 4px;
+  background: #333;
+}
+
+.close-btn .bar:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.close-btn .bar:nth-child(2) {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.opened {
+  display: flex;
+}
+
+.opened img {
+  animation: animatepopup 1s ease-in-out .8s;
+  -webkit-animation: animatepopup .3s ease-in-out forwards;
+}
+
+@keyframes animatepopup {
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+
+}
+
+@media screen and (max-width: 880px) {
+
+  .container .container__img-holder:nth-child(3n+1) {
+    margin-left: 16px;
+  }
+
+}
+		
+		
 	</style>
 	
   </head>
@@ -151,43 +261,33 @@ window.onload = function() {
                   </div>
                 </div>
               </div>
-              <div class="container-fluid">
-                <h4 class="font_bold text-center">Our Sponsors</h4>
-                        <hr width="5%" style="border-bottom: 2px solid #fff;"> 
-                         <br>  
-                         <br>
-                <div class="row">
-                  <div class="col-md-3 col-6 text-center pt-1">
-                    <img src="img/sponsons/codechef.png" class="small_sponsor img-fluid">
-                    
-                  </div>
-                  <div class="col-md-3 col-6 text-center pt-1">
-                    <img src="img/sponsons/coding_blocks.png" class="small_sponsor img-fluid">
-                    
-                  </div>
-                  <div class="col-md-3 col-6 text-center pt-1">
-                    <img src="img/sponsons/codingninjas.svg" class="small_sponsor img-fluid">
-                   
-                  </div>
-                  <div class="col-md-3 col-6 text-center pt-1">
-                    <img src="img/sponsons/hackerearth.jpeg" class="small_sponsor img-fauld">
-                    
-                  </div>
+
+              <div class="container">
+                <div class="container__img-holder">
+                  <img src="img\sponsons\codechef.png" alt="Image">
                 </div>
-                <br class=""> <br class="">
-                <div class="row">
-                  <div class="col-md-3 col-6 text-center pt-1">
-                    <img src="img/sponsons/skillenza.png" class="small_sponsor">
-                    
-               
-                  </div>
+                <div class="container__img-holder">
+                  <img src="img\sponsons\codingninjas.svg" alt="Image">
+                </div>
+                <div class="container__img-holder">
+                  <img src="img\sponsons\coding_blocks.png" alt="Image">
+                </div>
+                <div class="container__img-holder">
+                  <img src="img\sponsons\hackerearth.jpeg" alt="Image">
+                </div>
+                <div class="container__img-holder">
+                  <img src="img\sponsons\skillenza.png" alt="Image">
+                </div>
                 
-                 
-                 
-                </div>
-               
+                
+              </div>
               
-                
+              <div class="img-popup">
+                <img src="" alt="Popup Image">
+                <div class="close-btn">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
               </div>
             </div>
           </div>
