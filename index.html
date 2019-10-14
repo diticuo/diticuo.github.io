@@ -156,6 +156,49 @@
 
 }
 		
+		.bu {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: yellow; -webkit-box-shadow: 0 0 3px yellow; }
+  50% { background-color: rgb(163, 163, 163); -webkit-box-shadow: 0 0 40px gray; }
+  100% { background-color: yellow; -webkit-box-shadow: 0 0 3px yellow; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: yellow; -moz-box-shadow: 0 0 3px yellow; }
+  50% { background-color: gray; -moz-box-shadow: 0 0 40px gray; }
+  100% { background-color: darkgoldenrod; -moz-box-shadow: 0 0 3px darkgoldenrod }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: yellow; box-shadow: 0 0 3px yellow; }
+  50% { background-color: gray; box-shadow: 0 0 40px gray; }
+  100% { background-color: yellow; box-shadow: 0 0 3px yellow; }
+}
+
+@keyframes glowing {
+  0% { background-color: darkgoldenrod; box-shadow: 0 0 3px darkgoldenrod; }
+  50% { background-color: gray; box-shadow: 0 0 40px gray; }
+  100% { background-color: darkgoldenrod; box-shadow: 0 0 3px darkgoldenrod; }
+}
+
+		
 		
 	</style>
 	
@@ -1744,7 +1787,8 @@ window.onload = function() {
               <div class="d-block d-md-none">
                <div class="d-flex justify-content-center align-items-center c-1 ">
                  <h6 class="font_bold">ANNUAL TECHNO-SYMPOSIUM</h6>
-                 <p class="font_bold">NIT Trichy</p>
+                 <p class="font_bold">NIT TRICHY</p>
+		       <p class="bu font_bold" href="#">Powered By Skillenza</p>
                </div>
              </div>
            </div>
