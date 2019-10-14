@@ -1,0 +1,20 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+ <title/>
+ <desc/>
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_1">
+   <stop offset="0" stop-color="#706b6b"/>
+   <stop offset="0" stop-color="#8f9494"/>
+   <stop offset="0.003906" stop-color="#8f9494"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon stroke="#fff9f9" stroke-width="4" fill="url(#svg_1)" fill-opacity="0" points="29.585308234224385,6.161137104034424 52.54475784301758,18.110191345214844 52.54475784301758,42.0082893371582 29.585308234224385,53.95734405517578 6.625863297363651,42.0082893371582 6.625863297363651,18.110191345214844 " id="Polygon-6"/>
+  <text font-weight="bold" stroke="#ffffff" transform="rotate(178.94631958007812 29.581008911132816,25.30376815795898) matrix(1.1730968760629144,0,0,1.410709472498761,-13.59445542276612,-17.381214582222107) " xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="24" id="svg_4" y="38.912414" x="29.604691" stroke-opacity="null" stroke-width="0" fill="#f7f2f2">^</text>
+ </g>
+</svg>
